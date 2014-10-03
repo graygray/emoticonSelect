@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imageView_smile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="300dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_smile1" />
+    
+    <ImageView
+        android:id="@+id/imageView_smile1_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView_smile1"
+        android:layout_below="@+id/imageView_smile1"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_circle_green" />
+    
+    <ImageView
+        android:id="@+id/imageView_smile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView_smile1"
+        android:layout_marginLeft="140dp"
+        android:layout_toRightOf="@+id/imageView_smile1"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_smile2" />
+    
+    <ImageView
+        android:id="@+id/imageView_smile2_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView_smile2"
+        android:layout_below="@+id/imageView_smile2"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_circle_black" />
+    
+    <ImageView
+        android:id="@+id/imageView_angry1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView_smile1"
+        android:layout_marginLeft="140dp"
+        android:layout_toRightOf="@+id/imageView_smile2"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_angry1" />
+    
+    <ImageView
+        android:id="@+id/imageView_angry1_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView_angry1"
+        android:layout_below="@+id/imageView_angry1"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_circle_black" />
+    
+    <ImageView
+        android:id="@+id/imageView_angry2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView_smile1"
+        android:layout_toRightOf="@+id/imageView_angry1"
+        android:layout_marginLeft="140dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_angry2" />
+
+    <ImageView
+        android:id="@+id/imageView_angry2_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView_angry2"
+        android:layout_below="@+id/imageView_angry2"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_circle_black" />
+    
+    <ImageView
+        android:id="@+id/imageView_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_smile1" />
+
+</RelativeLayout>

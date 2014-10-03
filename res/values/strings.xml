@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EmoticonSelect</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="s_clear">Clear</string>
+    <string name="s_back">Exit</string>
+    <string name="s_test">Test</string>
+    <string name="s_info">Swipe Remote to Select..</string>
+    <string name="title_activity_emotions">EmotionsActivity</string>
+
+</resources>
